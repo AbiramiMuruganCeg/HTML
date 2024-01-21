@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h2>Cat photo app</h2>
+        <!--TODO ADD link to cat photos-->
+        <main>
+        <h3>Cat Photos</h3>
+        <p>Click here for view more youtube videos.<a href="#" target="_blank">Go to you tube!</a></p>
+             <a href="#"> <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange
+        cat lying on its back."></a>
+        <h3>Cat lists</h3>
+        <div class="lists">
+        <p>Cats <em>loves:</em></p>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasangna</li>  
+        </ul>
+        <img src="lasangna.jpg" alt="lasangna">
+        <p>Things cats <strong>hate:</strong></p>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+    </div>
+        <img src="cats.jpg" alt="cats"> <br>
+        <form action="submit-cat-photo">
+            <label for="indoor"><input id="indoor" type="radio" 
+                name = "indoor-outdoor" checked>Indoor</label> <br>
+            <label for="outdoor"><input id="outdoor" type="radio" 
+                name = "indoor-outdoor">Outdoor</label><br>
+
+            <label for="loving"><input id="loving" type="checkbox" 
+                    name = "personality" checked>Loving</label><br>
+            <label for="lazy"><input id="lazy" type="checkbox" 
+                    name = "personality">Lazy</label><br>
+            <label for="energetic"><input id="energetic" type="checkbox" 
+                    name = "personality">Energetic</label><br>
+
+            <input type="text"  placeholder="cat photo URL" required>
+                <br>
+            <button type="submit">Submit</button>
+            </form>
+        </main>
+     <footer>
+        <p><small>No - Copyright <a href=https://freecodecamp.org>freecodecamp.org</a></small></p>
+     </footer>
+    </body>
+</html>
